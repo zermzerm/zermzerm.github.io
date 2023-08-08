@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+      /* * {
+        margin: 0px;
+        padding: 0px;
+      } */
+      html {
+        font-size: 16px;
+        font-family: 'Nanum Gothic', sans-serif;
+        /* font-family: serif, monospace; 콤마 다음은 앞에꺼 지원 안할경우 다음꺼 */
+      }
+      .title {
+        font-size: 28px;
+        color: #383881ba;
+      }
+      .content {
+        font-size: 18px;
+      }
+      .font-italic {
+        font-style: italic;
+      }
+      .font-weight-bold {
+        font-weight: bold;
+      }
+      .font-weight-300 {
+        font-weight: 300;
+      }
+      .font-variant {
+        font-variant: small-caps;
+      }
+      .subtitle {
+        font-size: 20px;
+      }
+      .subtitle-rem {
+        font-size: 2rem; /* html이 16px로 돼있으니 2rem은 32px*/
+      }
+      .subtitle-parent {
+        font-size: 20px;
+      }
+      .subtitle-em {
+        font-size: 2em;
+      }
+      .rectangle.width {
+        width: 60vw;
+        height: 100px;
+        background-color: yellow;
+      }
+      .rectangle.width2 {
+        width: 30vw;
+        height: 100px;
+        background-color: yellow;
+      }
+      .rectangle.height {
+        height: 15vh;
+        width: 300px;
+        background-color: blue;
+      }
+      .rectangle.height2 {
+        height: 30vh;
+        width: 300px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">유튜브</h2>
+    <p class="content">코딩</p>
+    <p class="content font-italic">공부</p>
+    <p class="content font-weight-bold">시간</p>
+    <p class="content font-weight-300">시간</p>
+    <p class="content font-variant">HELLO, zerm</p>
+  </body>
+  <hr />
+  <h2>px</h2>
+  <p class="subtitle">보기임다</p>
+  <h2>rem</h2>
+  <p class="subtitle-rem">보기임다</p>
+  <h2>em</h2>
+  <div class="subtitle-parent">
+    <p class="subtitle-em">보기임다</p>
+  </div>
+  <hr />
+  <h2>vw</h2>
+  <div class="rectangle width"></div>
+  <h2>vw2</h2>
+  <div class="rectangle width2"></div>
+  <h2>vh</h2>
+  <div class="rectangle height"></div>
+  <h2>vh2</h2>
+  <div class="rectangle height2"></div>
+</html>

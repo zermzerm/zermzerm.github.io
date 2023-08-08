@@ -1,0 +1,35 @@
+//통분
+function solution(numer1, denom1, numer2, denom2) {
+  var za = 0,
+    mo = 0;
+  var za_arr = [],
+    mo_arr = [],
+    re_arr = [];
+  za = numer1 * denom2 + numer2 * denom1;
+  mo = denom1 * denom2;
+  for (var i = 2; i < za + 1; i++) {
+    if (za % i == 0) {
+      za_arr.push(i);
+    }
+  }
+  for (var i = 2; i < mo + 1; i++) {
+    if (mo % i == 0) {
+      mo_arr.push(i);
+    }
+  }
+  for (var i = 0; i < za_arr.length; i++) {
+    for (var j = 0; j < mo_arr.length; j++) {
+      if (za_arr[i] == mo_arr[j]) {
+        re_arr.push(za_arr[i]);
+      }
+    }
+  }
+  if (re_arr != 0) {
+    var it = re_arr[re_arr.length - 1];
+    za = za / it;
+    mo = mo / it;
+  }
+  var answer = [za, mo];
+  return answer;
+}
+console.log(solution(9, 2, 1, 3));
