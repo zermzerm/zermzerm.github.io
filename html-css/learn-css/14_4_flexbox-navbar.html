@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav-container {
+        display: flex;
+        list-style: none;
+        background-color: green;
+      }
+      .nav-item {
+        color: white;
+        padding: 15px;
+        cursor: pointer; /* li태그 범위에 커서 대면 커서 모양 바뀜 */
+      }
+      .nav-item:hover {
+        background-color: rgb(210, 62, 86);
+      }
+      .nav-item a {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+      }
+      .item1 {
+        background-color: rgb(71, 194, 120);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav-container">
+      <li class="nav-item item1"><a href="#">홈</a></li>
+      <li class="nav-item"><a href="#">상품</a></li>
+      <li class="nav-item"><a href="#">장바구니</a></li>
+      <li class="nav-item"><a href="#">마이페이지</a></li>
+    </ul>
+  </body>
+</html>

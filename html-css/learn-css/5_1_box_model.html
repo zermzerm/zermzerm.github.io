@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* content(width,height) padding border margin */
+      div.content {
+        background-color: rgb(162, 161, 161);
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        border: 10px solid green;
+        margin: 40px;
+      }
+      div.padding {
+        border: 1px solid black;
+        padding: 20px 10px; /*2개 적으면 상하, 좌우 / 3개적으면 상,좌우,아래 / 4개적으면 상,오른,아래,왼쪽*/
+      }
+      div.margin {
+        border: 1px solid red;
+        margin: 20px;
+      }
+      div.shape {
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+      span {
+        border: 1px solid red;
+        display: inline-block; /* 이걸 넣어야 인라인 요소들에 width, height 적용 가능 */
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content"></div>
+    <span>아무거나</span>
+    <div class="padding">
+      3. 식용유를 두르고 적절히 김치를 볶는다.[2] 기름을 많이 넣으면 김치맛이 안
+      날 수 있으므로 적당하게 넣자. 프라이팬에 부으면서 살짝 한 바퀴 돌려주는
+      정도가 딱 적당하다. 이때 김치의 상태에 따라 설탕, 물엿 ,올리고당 중 하나를
+      1인분 기준 반스푼정도 넣으면 좋다. 김치가 익다못해 쉬어버린 수준이면
+      쿰쿰하고 시큼한 맛을 가려주는 것은 물론 김치의 감칠맛을 더 끌어올려주는
+      역할까지 해준다. 반대로 김치가 덜익어서 맛이 안난다면, 다 볶고나서 식초를
+      반스푼 정도 넣어주자.
+    </div>
+    <div class="margin">
+      3. 식용유를 두르고 적절히 김치를 볶는다.[2] 기름을 많이 넣으면 김치맛이 안
+      날 수 있으므로 적당하게 넣자. 프라이팬에 부으면서 살짝 한 바퀴 돌려주는
+      정도가 딱 적당하다. 이때 김치의 상태에 따라 설탕, 물엿 ,올리고당 중 하나를
+      1인분 기준 반스푼정도 넣으면 좋다. 김치가 익다못해 쉬어버린 수준이면
+      쿰쿰하고 시큼한 맛을 가려주는 것은 물론 김치의 감칠맛을 더 끌어올려주는
+      역할까지 해준다. 반대로 김치가 덜익어서 맛이 안난다면, 다 볶고나서 식초를
+      반스푼 정도 넣어주자.
+    </div>
+    <div class="shape" style="margin-bottom: 40px"></div>
+    <div class="shape"></div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+/* 외부 스타일 */
+
+h1 {
+  color: green;
+}
+p {
+  color: blue;
+}
+.article {
+  border: 1px solid red;
+  padding: 30px;
+  background-color: yellow;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form input</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- <fieldset>
+        <label>개인정보</label>
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+      <fieldset>
+        <label>사업자정보</label>
+        <input type="text" />
+        <input type="text" />
+      </fieldset> -->
+      <fieldset>
+        <legend>Input Tag</legend>
+        <ul>
+          <!-- <li>
+            <label for="email">이메일</label>
+                input[type=tel] 이런식으로 하면 자동완성
+            <input type="email" in="email" />
+          </li>
+          <li>
+            <label for="tel">전화번호</label>
+            <input type="tel" in="tel" required />
+          </li> -->
+          <!-- <li>
+            <label for="url">URL</label>
+            <input type="url" in="url"  />
+          </li>
+        -->
+          <li>
+            <label for="range">Range</label>
+            <input type="range" id="range" />
+          </li>
+          <li>
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="이메일 입력해주세요" />
+          </li>
+          <li>
+            <label for="number">number</label>
+            <input
+              type="number"
+              id="number"
+              min="5"
+              max="10"
+              value="123"
+              readonly
+            />
+          </li>
+          <li>
+            <label for="number">number</label>
+            <input
+              type="number"
+              id="number"
+              min="5"
+              max="10"
+              value="333"
+              disabled
+            />
+          </li>
+          <li>
+            <label for="password">password</label>
+            <input type="password" id="password" autofocus />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>날짜관련</legend>
+        <ul>
+          <li>
+            <label for="date">date</label>
+            <input type="date" id="date" min="2023-07-23" />
+          </li>
+          <li>
+            <label for="month">month</label>
+            <input type="month" id="month" />
+          </li>
+          <li>
+            <label for="week">week</label>
+            <input type="week" id="week" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>시간관련</legend>
+        <ul>
+          <li>
+            <label for="time">time</label>
+            <input type="time" id="time" min="16:00" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>그 외</legend>
+        <ul>
+          <li>
+            <label for="file">file</label>
+            <input type="file" id="file" />
+          </li>
+        </ul>
+      </fieldset>
+      <input type="submit" value="제출" />
+    </form>
+  </body>
+</html>
