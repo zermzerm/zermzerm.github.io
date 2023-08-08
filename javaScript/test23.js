@@ -1,4 +1,5 @@
-//
+//n이상의 수 중에서 이진법으로 바꿨을때 n과 1의 개수가 같은 최소의 수
+//filter로 원하는 문자 찾기 + 개수
 function solution(n) {
   var a = n.toString(2);
   var a2 = a.split('');

@@ -1,3 +1,4 @@
+//배열에 같은 문자 있으면 그 개수에 거기에 해당되는 수를 곱한 값들의 합 구하기
 function solution(name, yearning, photo) {
   var answer = [];
   var arr = ['may', 'kein', 'kain', 'radi'];

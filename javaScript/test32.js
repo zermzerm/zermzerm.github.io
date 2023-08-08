@@ -1,4 +1,5 @@
 //못품
+//
 function solution(s, skip, index) {
   var skip_arr = [],
     s_arr = [],
