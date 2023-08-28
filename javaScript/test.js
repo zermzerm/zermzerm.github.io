@@ -1,4 +1,8 @@
 //실험
-a = ['asdf', 13213];
-b = ['qwer', 'ㄱㅈㄷㄱ'];
-console.log(a[1] + b[0]);
+//const error
+const a = 1;
+const b = 2;
+
+a = 3;
+b = 4;
+console.log(a, b);

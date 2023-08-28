@@ -11,13 +11,6 @@ function solution() {
     }
   }
   return console.log(answer);
-
-  // for i in range(1000):
-  //     s = str(i)
-  //     if any(x in s for x in ['3', '6', '9']):
-  //         num.append('짝')
-  //     else:
-  //         num.append(i)
 }
 
 solution();
